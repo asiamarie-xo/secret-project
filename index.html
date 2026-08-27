@@ -7,34 +7,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
     <title>Asia Marie</title>
     <style>
-      h1 {
-        font-family: "Libre Baskerville", serif;
-          font-optical-sizing: auto;
-          font-weight: normal;
-          font-style: normal;
-          text-align:center;
-          letter-spacing: -1px;
-          padding-top: 60px;
-          padding-bottom: 40px;
-            }
-      .thinking {
-        color: #333333;
-        padding-left: 60px;
-      }
-      .differently {
-        color: #a7b0c8;
-        padding-right: 60px;
-      }
+      
       .laptop-logo {
         width: 56%;
         height: auto;
         align-self: flex-start;
       }
+      
       .menu-list {
         list-style: none;
         display: flex;
         flex-direction: row;
       }
+      
       .menu {
         display: flex;
         align-items: center;
@@ -43,6 +28,7 @@
         padding-right: 12px;
         padding-top: 8px;
       }
+      
       .menu-link {
         text-decoration: none;
         font-family: "Google Sans Code", monospace;
@@ -53,15 +39,54 @@
         font-size: 12px;
         color: #5f5a72;
         margin: 10px;
-        
       }
+      
+      h1 {
+        font-family: "Libre Baskerville", serif;
+          font-optical-sizing: auto;
+          font-weight: normal;
+          font-style: normal;
+          text-align: center;
+          letter-spacing: -1px;
+          padding-top: 60px;
+          padding-bottom: 40px;
+            }
+      
+      .thinking {
+        color: #333333;
+        padding-left: 60px;
+      }
+      
+      .differently {
+        color: #a7b0c8;
+        padding-right: 60px;  
+      }
+
+      .hero {
+        position: relative;
+      }
+
+      .hey{
+        font-family: "Libre Baskerville", serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        color: #333333;
+        letter-spacing: -0.6px;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+      }
+      
       .wall-girl {
         display: block;
-        width: 50%;
+        width: 64%;
         margin: 0 auto;
         height: auto;
         padding-top: 40px;
+        padding-bottom: 20px;
          }
+      
       .b {
           font-family: "Libre Baskerville", serif;
           font-optical-sizing: auto;
@@ -73,6 +98,29 @@
           padding-right: 20px;
           padding-left: 20px;
          }
+
+      .about me {
+        text-decoration: none;
+        font-family: "Google Sans Code", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "MONO" 1;
+        font-size: 12px;
+        color: #5f5a72;
+        text-align: left;
+        padding-top: 12px;
+        padding-left: 20px;
+      }
+
+      .substack-post-embed {
+       display: flex;
+       align-items: left;
+       padding-top: 30px;
+       padding-left: 20px;
+       padding-bottom: 30px;
+      }
+      
     </style>
   </head>
   <body bgcolor="#f6f4f2">
@@ -89,11 +137,18 @@
       </nav>
     </header>
     <h1><span class="thinking">thinking</span><br><span class="differently"><em>differently.</em></span></h1>
+    <div class="hero">
      <img src="me on a wall.png" class="wall-girl" alt="Drawing of a black woman leaning forward on a wall.">
-    <div class ="b">
-     <p><em>Hey!</em> I’m Asia, a writer and creative from London. Welcome to my little corner of the internet!</p>
-     <p>I write personal essays reflecting on black womanhood, society, culture and honestly anything that piques my interest.</p>
-     <p>Take a look around and if you like what you see, sign up for my newsletter!</p>
+     <div class="hey"><em>Hey! I'm Asia</em></div>
     </div>
+    <div class ="b">
+     <p>This is where my filler text will go for the intro. I can't think of a good one without breaking my brain so I'll put this little section here in the meantime.</p>
+    </div>
+    <a href="#">
+     <p class="about me">more about me →</p>
+    </a>
+    <div class="substack-post-embed"><p lang="en-gb">the pursuit of happiness by asia marie 𖦹</p><p>a myth called "happily ever after"</p><a data-post-link href="https://writtenbyasia.substack.com/p/the-pursuit-of-happiness">Read on Substack</a>
+    </div>
+    <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
   </body>
 </html>
