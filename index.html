@@ -8,17 +8,23 @@
     <title>Asia Marie</title>
     <style>
       
+<!—Styling for the header section.—> 
+      
       .laptop-logo {
         width: 56%;
         height: auto;
         align-self: flex-start;
       }
+
+      <!—This is the container for the entire top navigation bar.—> 
       
       .menu-list {
         list-style: none;
         display: flex;
         flex-direction: row;
       }
+
+      <!—This controls how the menu list behaves.—> 
       
       .menu {
         display: flex;
@@ -28,6 +34,8 @@
         padding-right: 12px;
         padding-top: 8px;
       }
+
+     <!—This controls the appearance of the menu items themselves.—> 
       
       .menu-link {
         text-decoration: none;
@@ -40,6 +48,8 @@
         color: #5f5a72;
         margin: 10px;
       }
+      
+<!—Styling for the hero section.—>       
       
       h1 {
         font-family: "Libre Baskerville", serif;
@@ -62,6 +72,8 @@
         padding-right: 60px;  
       }
 
+   <!—This is the container for my drawing and the 'Hey!' text.—> 
+      
       .hero {
         position: relative;
       }
@@ -86,8 +98,10 @@
         padding-top: 40px;
         padding-bottom: 6px;
          }
+
+  <!—Styling for the main body section.—> 
       
-      .b {
+      .intro {
           font-family: "Google Sans", sans serif;
           font-optical-sizing: auto;
           font-weight: 400;
@@ -97,8 +111,10 @@
           letter-spacing: -0.4px;
           text-align: left;
           color: #333333;
+          padding-top: 20px;
           padding-right: 20px;
           padding-left: 20px;
+          padding-bottom: 20px;
          }
 
       .about-me {
@@ -114,6 +130,8 @@
         padding-left: 20px;
       }
 
+ <!—This controls the size and position of the embedded substack post.—> 
+      
       .substack-post-embed {
        width: 80%;
        height: auto;
@@ -121,6 +139,8 @@
        padding-top: 40px;
        padding-bottom: 40px;
       }
+
+  <!—This makes sure the embedded substack post displays correctly without weird edges.—> 
 
       .substack-post-embed iframe {
        border-radius: 12px !important;
@@ -130,16 +150,27 @@
        width: 500px !important;
       }
 
+  <!—this is the container for the sign up box, controlling its size.—> 
+      
       .sign-up {
-       width: 343px;
+       width: 340px;
        height: auto;
+       padding-bottom: 20px;
       }
+
+   <!—This is the embedded sign-up box itself, controlling it's positioning.—> 
 
       .sign-up-box {
        display: flex;
        justify-content: center;
       }
 
+<!—Styling for the footer section.—> 
+
+      .footer {
+       background-color: #a7b0c8;
+      }
+      
       .footer-links {
         text-decoration: none;
         list-style: none;
@@ -150,10 +181,9 @@
         font-variation-settings: "MONO" 1;
         font-size: 12px;
         color: #f6f4f2;
-        margin: 10px;
         display: flex;
         align-items: center;
-        padding-left: 20px;
+        padding-left: 10px;
       }
 
       .copyright {
@@ -164,7 +194,8 @@
           font-variation-settings:
           "GRAD" 0;
           letter-spacing: -0.4px;
-          color: ##f6f4f2;
+          font-size: 10px;
+          color: #f6f4f2;
           text-align: center;
       }
       
@@ -188,7 +219,7 @@
      <img src="me on a wall.png" class="wall-girl" alt="Drawing of a black woman leaning forward on a wall.">
      <div class="hey"><em>Hey! I'm Asia</em></div>
     </div>
-    <div class ="b">
+    <div class ="intro">
      <p>This is where my filler text will go for the intro. I can't think of a good one without breaking my brain so I'll put this little section here in the meantime.</p>
     </div>
     <a href="#" class="about-me">more about me →</a>
@@ -199,13 +230,13 @@
     <iframe class="sign-up" src="https://writtenbyasia.substack.com/embed?transparent=1" width="480" height="320" style="border: 0; background: transparent" frameborder="0" scrolling="no"></iframe>
     </div>
   </body>
-  <footer class="footer" bogcolor: #a7b0c8>
+  <footer class="footer">
     <ul class="footer-links">
       <liL<a href="#" class="menu-link">about</a></li>
          <li><a href="https://writtenbyasia.substack.com/" class="menu-link">newsletter</a></li>
          <li><a href="#" class="menu-link">contact</a></li>
       </liL>
     </ul>
-    <p><span class="copyright"><© Asia Marie 2026</span></p>
+    <p><span class="copyright">© Asia Marie 2026</span></p>
   </footer>
 </html>
