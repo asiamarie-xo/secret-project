@@ -9,6 +9,10 @@
     <style>
       
 /* Styling for the header section. */
+
+      .body {
+        margin: 0;
+      }
       
       .laptop-logo {
         width: 56%;
@@ -135,7 +139,7 @@
        width: 80%;
        height: auto;
        margin: auto;
-       padding-top: 40px;
+       padding-top: 60px;
        padding-bottom: 40px;
       }
 
@@ -174,10 +178,15 @@
        display: flex;
        align-items: center;
       }
+
+      .footer-list {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+      }
       
       .footer-links {
         text-decoration: none;
-        list-style-type: none;
         font-family: "Google Sans Code", monospace;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -233,11 +242,10 @@
   </body>
   <footer class="footer">
    <div class="footer-links-box">
-    <ul>
+    <ul class="footer-list">
       <li><a href="#" class="footer-links">about</a></li>
          <li><a href="https://writtenbyasia.substack.com/" class="footer-links">newsletter</a></li>
          <li><a href="#" class="footer-links">contact</a></li>
-      </li>
      </ul>
     </div>
     <p><span class="copyright">© Asia Marie 2026 | Site and Illustration by Asia Marie</span></p>
