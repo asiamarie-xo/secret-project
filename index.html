@@ -74,8 +74,8 @@
         color: #333333;
         letter-spacing: -0.6px;
         position: absolute;
-        top: 10px;
-        right: 20px;
+        top: 50%;
+        right: 40px;
       }
       
       .wall-girl {
@@ -111,22 +111,18 @@
         font-size: 12px;
         color: #5f5a72;
         text-align: left;
-        padding-top: 12px;
         padding-left: 20px;
       }
 
-      .substack-post-embed {
-       display: flex;
+      .substack-post-embed iframe {
+       border-radius: 12px !important;
+       overflow: hidden !important;
+       display: block;
        align-items: center;
        width: 70%;
        height: auto;
        padding-top: 30px;
        padding-bottom: 30px;
-      }
-
-      .substack-embed-wrapper {
-       border-radius: 12px;
-       overflow: hidden;
       }
       
     </style>
@@ -155,10 +151,8 @@
     <a href="#">
      <p class="about-me">more about me →</p>
     </a>
-    <div class="substack-embed-wrapper">
     <div class="substack-post-embed"><p lang="en-gb">the pursuit of happiness by asia marie 𖦹</p><p>a myth called "happily ever after"</p><a data-post-link href="https://writtenbyasia.substack.com/p/the-pursuit-of-happiness">Read on Substack</a>
     </div>
     <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
-    </div>
   </body>
 </html>
